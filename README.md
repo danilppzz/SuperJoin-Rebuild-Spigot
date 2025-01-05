@@ -21,6 +21,10 @@ join:
   # Keep empty for all the worlds in the server (especial when using networks)
   world: ""
 
+  # You can put a 8px by 8px image to render to users at join message.
+  custom_image: false
+  custom_image_url: "https://raw.githubusercontent.com/danilppzz/SuperJoin-Rebuild-Spigot/refs/heads/main/resources/5d28c579a4c0.png"
+
   # Display the player head
   player_head: true
 
