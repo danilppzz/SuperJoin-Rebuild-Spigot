@@ -69,6 +69,9 @@ use `%player_name%` for the player name.
 
 you can use all the PlaceholderAPI extension you want, for this two you need `Servertime` & `Player`
 
+> [!IMPORTANT]
+> To create custom messages for discord I recomend using this: [https://discohook.org/](https://discohook.org/)
+> and export it to json after you made it.
 ```json
 {
   "content": null,
