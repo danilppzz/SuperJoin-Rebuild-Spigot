@@ -71,6 +71,7 @@ you can use all the PlaceholderAPI extension you want, for this two you need `Se
 
 > [!IMPORTANT]
 > To create custom messages for discord I recomend using this: [https://discohook.org/](https://discohook.org/)
+> 
 > and export it to json after you made it.
 ```json
 {
