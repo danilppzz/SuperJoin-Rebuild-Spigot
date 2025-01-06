@@ -11,6 +11,8 @@ This plugin allows you to customize join message with player head in it, also su
  - [x] [Discord hook integration.](#discord-hook-support)
  - [x] Custom join sound.
  - [x] Place margin top & bottom at messages.
+ - [x] Commands at join
+ - [x] Now with quit message 
  - [x] PlaceholderAPI 
    - Recommend installing `Servertime` & `Player` for use default hook message
 
@@ -45,6 +47,11 @@ join:
   # Default message is use when player_head is disabled.
   default_message: "&8[&2+&8] &f%player_name%"
 
+  # Command to execute at join
+  # Support PlaceholderAPI
+  commands:
+    - "console;give %player_name% stick 1"
+
   # Set a margin at the top and bottom of the message.
   margin: true
 
@@ -52,6 +59,17 @@ join:
   # Also, the sound must be in UpperCase.
   # Default: ENTITY_EXPERIENCE_ORB_PICKUP
   sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+
+quit:
+  # Keep empty for all the worlds in the server (especial when using networks)
+  world: ""
+
+  # Set a margin at the top and bottom of the message.
+  margin: true
+
+  # Message when player left the server.
+  default_message: "&8[&c-&8] &f%player_name%"
+
 
 # Discord hook also support PlaceholderAPI so you can use %player_name% or other.
 discord:
