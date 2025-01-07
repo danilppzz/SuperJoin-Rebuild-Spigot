@@ -114,3 +114,13 @@ you can use all the PlaceholderAPI extension you want, for this two you need `Se
   "attachments": []
 }
 ```
+
+## Custom Join Image Guide
+To add the custom image you need to change this settings at your config.
+```yml
+# You can only put a 8px by 8px image to render to users at join message.
+custom_image: true
+custom_image_url: "https://raw.githubusercontent.com/danilppzz/SuperJoin-Rebuild-Spigot/refs/heads/main/resources/a21a250cb319.png"
+```
+
+You can replace the URL with the image 8x8, if you want to storage some 8x8 image you can create an issue with the image, and it will be added as soon as posible.
