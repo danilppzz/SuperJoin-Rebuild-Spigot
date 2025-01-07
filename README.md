@@ -124,3 +124,7 @@ custom_image_url: "https://raw.githubusercontent.com/danilppzz/SuperJoin-Rebuild
 ```
 
 You can replace the URL with the image 8x8, if you want to storage some 8x8 image you can create an issue with the image, and it will be added as soon as posible.
+
+![image](https://github.com/user-attachments/assets/321bb09d-030b-4b82-86ef-7e6579bf2ad5)
+
+
