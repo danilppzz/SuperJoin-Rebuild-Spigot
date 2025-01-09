@@ -127,4 +127,16 @@ You can replace the URL with the image 8x8, if you want to storage some 8x8 imag
 
 ![image](https://github.com/user-attachments/assets/321bb09d-030b-4b82-86ef-7e6579bf2ad5)
 
+## Custom Join Commands
+To add commands at player join your can add lines to this object at the config.
+```yml
+# Command to execute at join
+  # Support PlaceholderAPI
+  commands:
+    - "console;give %player_name% stick 1"
+    - "player;plugins"
+```
 
+To execute the commands we can choose between `player | console`
+
+Commands can't have the `/` at start, dont need it at the config for being executed.
