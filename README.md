@@ -1,4 +1,6 @@
-## SuperJoin Rebuild
+
+## SuperJoin Rebuild![top](https://github.com/user-attachments/assets/abc1ec4e-0b92-4d8f-8d99-3388ad3fa213)
+
 This plugin allows you to customize join message with player head in it, also supports PlaceholderAPI.
 
 [![Hits](https://hits.sh/github.com/danilppzz/SuperJoin-Rebuild-Spigot.svg)](https://hits.sh/github.com/danilppzz/SuperJoin-Rebuild-Spigot/)
